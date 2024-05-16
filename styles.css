@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+.title {
+    background-color: #1F2937;
+    display: flex;
+}
+
+header {
+    gap: 15px;
+    padding: 20px 100px;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
