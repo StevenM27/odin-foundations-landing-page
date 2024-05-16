@@ -13,15 +13,54 @@ body {
 }
 
 header,
-.title {
+.hero {
     background-color: #1F2937;
     display: flex;
 }
 
+.hero div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    flex: 1;
+}
+
+.hero button {
+    align-self: flex-start;
+    padding: 7px 25px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    border: none;
+    color: white;
+}
+
+.hero-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 header {
     gap: 15px;
-    padding: 20px 100px;
+    padding: 20px 20%;
     align-items: center;
+}
+
+.hero {
+    padding: 100px 20%;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .header-logo {
