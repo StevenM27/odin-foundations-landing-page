@@ -13,7 +13,8 @@ body {
 }
 
 header,
-.hero {
+.hero,
+footer {
     background-color: #1F2937;
     display: flex;
 }
@@ -26,13 +27,16 @@ header,
     flex: 1;
 }
 
-.hero button {
-    align-self: flex-start;
+button {
     padding: 7px 25px;
     border-radius: 5px;
+    color: white;
+}
+
+.hero button {
+    align-self: flex-start;
     background-color: #3882F6;
     border: none;
-    color: white;
 }
 
 .hero-title {
@@ -133,4 +137,38 @@ header {
     font-size: 28px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 125px 20%;
+}
+
+.call-to-action .box {
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.box button {
+    border: 3px white solid;
+    background-color: #3882F6;
+}
+
+footer {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 30px;
+    justify-content: center;
+}
+
+.action-header,
+.action-text {
+    color: white;
 }
